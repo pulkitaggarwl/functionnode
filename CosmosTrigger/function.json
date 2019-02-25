@@ -1,0 +1,14 @@
+{
+  "bindings": [
+    {
+      "type": "cosmosDBTrigger",
+      "name": "documents",
+      "direction": "in",
+      "leaseCollectionName": "leases",
+      "connectionStringSetting": "cosmossamplepulkit_DOCUMENTDB",
+      "databaseName": "funccosmos",
+      "collectionName": "funccosmos",
+      "createLeaseCollectionIfNotExists": "true"
+    }
+  ]
+}
